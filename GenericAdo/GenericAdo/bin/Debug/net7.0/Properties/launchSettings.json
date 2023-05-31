@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "CodeAcademy Devlopment": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIROMENT": "Development",
+        "ConnectionString": "server=localhost,1433;uid=sa;pwd=Alaska2017;database=Northwind;"
+      }
+    }
+  }
+}

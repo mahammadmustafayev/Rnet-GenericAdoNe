@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Mahammad Mustafayev</Authors>
+    <Company>Mahammad</Company>
+    <Product>DbHelper</Product>
+    <Description>Ado.Net test</Description>
+    <PackageIcon>adoicon.png</PackageIcon>
+    <PackageId>MahammadAdoDbHelper</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PluralizeService.Core" Version="1.2.21147.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="adoicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
